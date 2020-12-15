@@ -1,0 +1,159 @@
+html *{
+    margin: 0;
+    font-family: sans-serif;
+}
+.banner{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background: url(images/banner.jpg) bottom no-repeat;
+    background-size: cover;
+}
+.mains{
+    position: relative;
+    top: 100px;
+}
+.nav{
+    position: relative;
+    width: 70%;
+    height: 35px;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.nav-btn i{
+    font-size: 27px;
+}
+.nav-btn{
+    font-size: 20px;
+    color: rgb(214, 208, 208);
+    background: linear-gradient( rgb(129, 128, 128) 40%, rgb(75, 74, 74) 75%, rgb(119, 118, 118) 88%, rgb(124, 123, 123) 95%);
+    width: auto;
+    flex: 1;
+    border: none;
+    border-right: 1px solid darkgray;
+}
+.nav-last{
+    background-color: gainsboro;
+    width: 130px;
+    flex-basis: 130px;
+    position: relative;
+    border-left: 1px solid black ;
+    background: linear-gradient( rgb(129, 128, 128) 40%, rgb(75, 74, 74) 75%, rgb(119, 118, 118) 88%, rgb(124, 123, 123) 95%);
+}
+.nav-last span {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.nav-last input{
+    box-sizing: border-box;
+    width: 80%;
+    float: right;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+input:focus{
+    outline: none;
+}
+.nav-last i{
+    color: white;
+    width: 10%;
+    font-size: 12px;
+    margin-left: 5%;
+}
+.line1{
+    margin-top: 20px;
+    height: 90px;
+    background-color: white;
+    background: url(images/line1.png) top no-repeat;
+}
+.line2{
+    height: 100px;
+    background: url(images/line2.png) top no-repeat;
+}
+.line3{
+    margin: 0 auto;
+    height: 30px;
+    background: url(images/line3.png) top no-repeat;
+}
+.line3:hover{
+    width: 550px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+.line1:hover, .line2:hover{
+    cursor: pointer;
+}
+.products{
+    background-color: white;
+    height: 200px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.tile{
+    background-color: transparent;
+    box-sizing: border-box;
+    margin: 2px 1px;
+    height: 100%;
+    width: 25%;
+}
+.tile1{
+    background: url(images/img1.jpg);
+}
+.tile2{
+    background: url(images/img2.jpg);
+}
+.tile3{
+    background: url(images/img3.jpg);
+}
+.tile4{
+    background: url(images/img4.jpg);
+}
+.tile:hover{
+    cursor: pointer;
+}
+footer{
+    height: auto;
+    background-color: white;
+    display: flex;
+}
+.foot-tile{
+    width: 50%;
+    background-color: transparent;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.foot-tile > a{
+    display: inline-block;
+    border-left: 1px solid gray;
+}
+.foot-tile p{
+    font-size: 11px;
+    margin-bottom: 10px;
+    color: rgb(56, 56, 56);
+}
+footer a{
+    padding: 0 5px;
+    font-size: 11px;
+    text-decoration: none;
+    color: teal;
+}
+.spec{
+    padding-right: 5px;
+    border-right: 1px solid gray;
+}
+.nospec{
+    border-left: unset !important;
+    font-size: 16px;
+}
